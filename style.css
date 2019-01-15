@@ -21,14 +21,14 @@ button {
 }
 
 .todo__item:hover {
-  background: #f7f7f7;
+  background: #d4d0d0;
   cursor: pointer;
 }
 
 .todo__entry {
   border: solid 1px #ccc;
   display: block;
-  margin: 20px auto;
+  margin: 40px auto;
   padding: .25em .5em;
   border-radius: .2em;
   background: #f3f3f3;
@@ -41,9 +41,10 @@ button {
   border-radius: .2em;
   background: #71B7FF;
   color: #fff;
-  padding: .25em .5em;
-  margin: .5em 0;
-  margin-right: .25em;
+  padding: .35em .5em;
+  margin: 0;
+  margin-right: 5em;
+  float:right;
   cursor: pointer;
 }
 

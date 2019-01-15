@@ -36,11 +36,14 @@ export function TodoList(props) {
 
   return (
     <div className='todo'>
+     < button className = 'todo__button' >
+       Add todo 
+     </button>
       <input type='text'
              className='todo__entry'
              placeholder='Add todo'
              onKeyDown={onSubmit} />
-             
+           
       <ul className='todo__list'>
         {todos.map(t => (
           <li key={t.get('id')}
