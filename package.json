@@ -1,5 +1,5 @@
 {
-  "name": "immutable-todo",
+  "name": "redux-todo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
