@@ -36,9 +36,7 @@ export function TodoList(props) {
 
   return (
     <div className='todo'>
-     < button className = 'todo__button' >
-       Add todo 
-     </button>
+     
       <input type='text'
              className='todo__entry'
              placeholder='Add todo'
